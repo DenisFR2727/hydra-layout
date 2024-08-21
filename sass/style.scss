@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container-hydra-desktop {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #302c42;
+  padding: 50px 84px;
+}
+.hydra-desktop {
+  max-width: 1275px;
+  background: #302c42;
+}
+
+// desktop
+@import "./header";

@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container-hydra-desktop {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #302c42;
+  padding: 50px 84px;
+}
+
+.hydra-desktop {
+  max-width: 1275px;
+  background: #302c42;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header nav ul {
+  display: flex;
+  gap: 42px;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header nav .btns-nav {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header nav .btns-nav .btns-contact {
+  width: 100%;
+  max-width: 154px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #fff;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  padding: 17px 34px;
+  user-select: none;
+  cursor: pointer;
+}
+header nav .btns-nav .btns-hydra {
+  width: 100%;
+  max-width: 155px;
+  height: 48px;
+  border-radius: 40px;
+  padding: 17px 37px 16px 38px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  flex-shrink: 0;
+  color: #343045;
+}
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-content .left-header-text .dive-into-text {
+  display: block;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header .header-content .left-header-text .dive-into-text .text-top span {
+  background: linear-gradient(92deg, #c0b7e8 -1.02%, #8176af 36.25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .header-content .left-header-text .dive-into-text .text-bottom span {
+  background: linear-gradient(269deg, #c0b7e8 -3.72%, #8176af 82.17%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .header-content .left-header-text .text {
+  padding-top: 36px;
+  width: 100%;
+  max-width: 450px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .header-content .left-header-text .btn-world {
+  display: flex;
+  align-items: center;
+  padding-top: 66px;
+}
+header .header-content .left-header-text .btn-world .btn-build-your-world {
+  max-width: 214px;
+  height: 48px;
+  padding: 17px 43px 16px 38px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  color: #343045;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  user-select: none;
+}
+header .header-content .left-header-text .btn-world svg {
+  cursor: pointer;
+}
+header .header-content .right-header-block {
+  position: relative;
+  width: 524px;
+  height: 455px;
+  background: rgba(0, 0, 0, 0.13);
+  border-radius: 100px 100px 100px 240px;
+}
+header .header-content .right-header-block img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100px 100px 100px 240px;
+}
+header .header-bottom-contact {
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  border-radius: 90px;
+  background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211e2e 100%);
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+header .header-bottom-contact .contact-item {
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+}
+header .header-bottom-contact .contact-item .text .text-top {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+header .header-bottom-contact .first-item {
+  padding-left: 39px;
+}
+header .header-bottom-contact .middle-item .text {
+  padding-left: 29px;
+}
+header .header-bottom-contact .last-item {
+  padding-right: 80px;
+}
+header .header-bottom-contact .last-item .text {
+  padding-left: 23px;
+}
+header .header-bottom-contact .line-left {
+  margin-top: 26px;
+  margin-bottom: 24px;
+  width: 1px;
+  height: 116.5px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  background: rgba(192, 183, 232, 0.33);
+}
+header .header-bottom-contact .line-right {
+  margin-top: 26px;
+  margin-bottom: 24px;
+  width: 1px;
+  height: 116.5px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  background: rgba(192, 183, 232, 0.33);
+}
+
+/*# sourceMappingURL=style.css.map */
