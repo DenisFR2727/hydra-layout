@@ -167,7 +167,7 @@ header .header-bottom-contact .contact-item {
   align-items: center;
   padding: 30px 0px;
 }
-header .header-bottom-contact .contact-item .text .text-top {
+header .header-bottom-contact .contact-item .text .text__top {
   font-size: 24px;
   padding-bottom: 10px;
 }
@@ -200,6 +200,181 @@ header .header-bottom-contact .line-right {
   flex-shrink: 0;
   stroke-width: 1px;
   background: rgba(192, 183, 232, 0.33);
+}
+
+.services-section {
+  padding-top: 120px;
+}
+.services-section .services-section__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-section .services-section__text .hydra-text {
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  font-size: 36px;
+}
+.services-section .services-section__text .hydra-text .hydra-text__build {
+  font-weight: 700;
+}
+.services-section .services-section__text .hydra-text .hydra-text__content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.services-section .services-section__text .hydra-text .hydra-text__content .hydra-text__question {
+  display: flex;
+  font-weight: 300;
+}
+.services-section .services-section__text .text-right {
+  max-width: 652px;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+}
+.services-section .services-section__text .text-right .text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.services-section .services-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 107px;
+}
+.services-section .services-list__block {
+  width: 310px;
+  height: 511px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
+}
+.services-section .services-list__icon {
+  margin: 0 auto;
+  margin-top: 23px;
+  width: 219px;
+  height: 219px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.13);
+  border-radius: 100%;
+  position: relative;
+}
+.services-section .services-list__icon .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+}
+.services-section .services-list__title {
+  display: flex;
+  justify-content: center;
+  padding-top: 21px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.services-section .services-list__text {
+  padding-left: 25px;
+  padding-top: 21.5px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.services-section .services-list__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 154px;
+  height: 48px;
+  flex-shrink: 0;
+  margin: 51px 78px 40px 78px;
+  margin-bottom: 51px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  color: #343045;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  user-select: none;
+  cursor: pointer;
+}
+.prodaction {
+  padding-top: 111px;
+}
+.prodaction .prodaction-image-tech {
+  position: relative;
+  border-radius: 150px;
+}
+.prodaction .prodaction-image-tech .image-tech {
+  position: relative;
+  width: 100%;
+  border-radius: 150px;
+  z-index: 1;
+}
+.prodaction .prodaction-image-tech .prod-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 36px;
+  line-height: normal;
+  bottom: 0;
+  z-index: 2;
+}
+.prodaction .prodaction-image-tech .prod-text .text-tech {
+  font-weight: 700;
+}
+.prodaction .prodaction-image-tech .prod-text .text-hydra {
+  font-weight: 300;
+}
+.prodaction .prodaction-image-tech .outline {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  bottom: -45px;
+  background: rgba(14, 14, 14, 0.32);
+  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.prodaction .prodaction-image-tech .outline .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #c0b7e8;
+  z-index: 4;
+}
+.prodaction .prodaction-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

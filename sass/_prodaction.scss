@@ -1,0 +1,66 @@
+.prodaction {
+  padding-top: 111px;
+  .prodaction-image-tech {
+    position: relative;
+    border-radius: 150px;
+    .image-tech {
+      position: relative;
+      width: 100%;
+
+      border-radius: 150px;
+      z-index: 1;
+    }
+    .prod-text {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      font-family: Montserrat;
+      font-style: normal;
+      font-size: 36px;
+      line-height: normal;
+      bottom: 0;
+      z-index: 2;
+
+      .text-tech {
+        font-weight: 700;
+      }
+      .text-hydra {
+        font-weight: 300;
+      }
+    }
+    .outline {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      flex-shrink: 0;
+      border-radius: 100%;
+      bottom: -45px;
+      background: rgba(14, 14, 14, 0.32);
+      z-index: 3;
+      left: 50%; // Встановлюємо left на 50%
+      transform: translateX(-50%);
+      cursor: pointer;
+
+      .circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background-color: #c0b7e8;
+        z-index: 4;
+      }
+    }
+  }
+  .prodaction-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

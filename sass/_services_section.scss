@@ -1,0 +1,127 @@
+.services-section {
+  padding-top: 120px;
+  .services-section__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .hydra-text {
+      color: #fff;
+      font-family: Montserrat;
+      font-style: normal;
+      line-height: normal;
+      font-size: 36px;
+
+      .hydra-text__build {
+        font-weight: 700;
+      }
+      .hydra-text__content {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        .hydra-text__question {
+          display: flex;
+          font-weight: 300;
+        }
+      }
+    }
+    .text-right {
+      max-width: 652px;
+      color: #fff;
+      font-family: Montserrat;
+      font-style: normal;
+      line-height: normal;
+      .text {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+  .services-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 107px;
+
+    &__block {
+      width: 310px;
+      height: 511px;
+      flex-shrink: 0;
+      border-radius: 40px;
+      background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
+    }
+
+    &__content {
+      //   padding: 23px 35px 0 25px;
+    }
+
+    &__icon {
+      margin: 0 auto;
+      margin-top: 23px;
+      width: 219px;
+      height: 219px;
+      flex-shrink: 0;
+      background: rgba(0, 0, 0, 0.13);
+      border-radius: 100%;
+      position: relative;
+
+      .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 100%;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+      }
+    }
+
+    &__title {
+      display: flex;
+      justify-content: center;
+      padding-top: 21px;
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    &__text {
+      padding-left: 25px;
+      padding-top: 21.5px;
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &__btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 154px;
+      height: 48px;
+      flex-shrink: 0;
+      margin: 51px 78px 40px 78px;
+      margin-bottom: 51px;
+      border-radius: 40px;
+      background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+      color: #343045;
+
+      font-family: Montserrat;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      user-select: none;
+      cursor: pointer;
+      &:hover {
+      }
+    }
+  }
+}
